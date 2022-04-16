@@ -1,0 +1,272 @@
+
+
+/* GRID */
+
+.content {
+  display: grid;
+  max-width: 1800px;
+  margin: 10rem auto 0 auto;
+  grid-template-columns: 20rem 4fr 1fr;
+  grid-template-areas: 
+  '. main nav'
+  '. main aside'
+  'footer footer footer';
+}
+.nav {
+  grid-area: nav;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
+.social-side {
+  grid-area: aside;
+}
+
+
+
+/* NAV */
+
+.nav {
+  margin-bottom: 12rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-left: 5rem;
+}
+
+.nav ul li {
+  margin: 1.5rem 1.5rem 0 0;
+  padding: .8rem;
+  font-size: 1.0rem;
+  color: var(--main-font);
+}
+
+.nav ul li:hover {
+  color: var(--light-blue);
+  transition: all .3s ease-out
+}
+
+
+/* ASIDE */
+
+.social-side {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-left: 5rem;
+}
+
+.social-side span {
+  display: block;
+  font-size: 1rem;
+  margin: 0 2rem 1rem;
+}
+
+.social-side a {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: end;
+}
+/* HEADER */
+
+.header-container {
+  display: flex;
+}
+
+.title {
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.title span {
+  font-size: 1rem;
+}
+
+.title h1 {
+  font-size: 4.5rem;
+  color: var(--light-blue);
+  line-height: 5rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 480px;
+  margin-bottom: 20rem;
+  line-height: 1.8rem;
+}
+
+.description p {
+  margin-bottom: 50px;
+}
+
+.description i {
+  color: var(--main-font);
+}
+
+.description .button-hello {
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--main-font);
+  border: 2px solid var(--main-font);
+  background-color: var(--main-bg);
+}
+
+.description .button-hello i {
+  margin-right: .5rem;
+}
+
+.description .button-hello:hover {
+  color: var(--light-blue);
+  border: 2px solid var(--light-blue);
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+.img-perfil {
+  margin-left: 10rem;
+
+}
+
+.img-perfil img {
+  min-width: 25rem;
+  min-height: 26rem;
+  margin-top: 1rem;
+}
+
+
+
+/* ABOUT ME */
+
+.about-me {
+  margin-top: -10rem;
+  max-width: 45rem;
+  margin-bottom: 10rem;
+}
+
+.about-me p {
+  margin-bottom: 2rem;
+}
+
+
+/* SKILLS */
+
+.skills {
+  margin-bottom: 10rem;
+}
+.skills ul, .skills span  {
+  font-size: 1.23rem;
+}
+
+.skills ul {
+  margin-top: 1rem;
+  line-height: 2.5rem;
+}
+
+.skills ul i {
+  margin-right: 1rem;
+  color: var(--light-blue);
+}
+
+
+/* PROJECTS  */
+
+.project {
+  max-width: 80rem;
+  display: inline-block;
+  border: .2rem solid var(--main-font);
+  width: 25rem;
+  height: 32rem;
+  margin: 2rem;
+}
+
+.project-img img {
+  display: block;
+  width: 23rem;
+  height: 12rem;
+  margin: 2rem auto;
+}
+
+.project h4 {
+  font-size: 1.2rem;
+  padding: .2rem 2rem;
+}
+
+.project p {
+  font-size: 1rem;
+  padding: 1.5rem 2rem;
+  margin: 0;
+}
+
+.project span {
+  padding: .5rem;
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.project-description p {
+  display: block;
+  height: 6rem;
+}
+
+.project-tech {
+  margin-left: 1rem;
+  width: 11rem;
+  display: inline-block;
+}
+
+.button-github {
+  background-color: var(--main-bg);
+  border: .2rem solid var(--main-font);
+  display: inline-block;
+  padding: 1rem;
+}
+
+.button-github:hover {
+  color: var(--light-blue);
+  border: 2px solid var(--light-blue);
+  cursor: pointer;
+}
+
+.button-github i {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.button-github span {
+  margin: 0;
+  color: var(--main-font);
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+
+/* FOOTER */
+
+.footer {
+  height: 10rem;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-top: 7rem;
+  font-size: 1rem;
+}

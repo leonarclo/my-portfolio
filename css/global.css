@@ -1,0 +1,46 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-font);
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+ul, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  padding-top: 4rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 25rem;
+  line-height: 1.8rem;
+}
+
+i {
+  color: var(--light-blue);
+  margin-right: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --main-bg: #0A192F;
+  --main-font: #f0f8ff;
+  --light-blue: #6cf5ff;
+}

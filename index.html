@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio</title>
+</head>
+<body>
+  <nav class="nav">
+    <ul>
+      <a href="#title">
+        <li>Início</li>
+      </a>
+      <a href="#about-me">
+        <li>Sobre mim</li>
+      </a>
+      <a href="#skills">
+        <li>Skills</li>
+      </a>
+      <a href="#projects">
+        <li>Projetos</li>
+      </a>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <main class="main">
+      <div class="header-container">
+        <header class="header">
+          <div class="title" id="title">
+            <span> Olá, eu sou</span>
+            <h1>
+              Leonardo Lima
+            </h1>
+          </div>
+          <div class="description">
+            <P>
+              Estudante de Análise e Desenvolvimento de Sistemas com grande interesse em desenvolvimento front-end e design. <br> Entusiasta de tecnologia e um pouco de design. <br> 
+              <i>Fã de café e dias frios.</i>
+            </P>
+            <a href="mailto:leonardostlima@gmail.com">
+              <button class="button-hello">
+                <i class="fa-solid fa-inbox"></i>
+                Diga Oi!
+              </button>
+            </a>
+          </div>
+        </header>
+        <div class="img-perfil">
+          <img src="assets/perfil.jpg" alt="Minha foto de perfil">
+        </div>
+      </div>
+
+      <section class="about-me" id="about-me">
+        <h2>
+          <i class="fa-solid fa-code"></i>
+          Sobre mim</h2>
+        <p>
+          Atualmente, estudo Análise e Desenvolvimento de Sistemas, além de cursos extracurriculares de programação frontend e UI/UX design.
+          Sou graduado em Administração, porém estou em transição de carreira e em busca da primeira oportunidade na área de tecnologia.
+          De manaus/AM, morando em Curitiba/PR.
+        </p>
+        <p>
+          Além de tecnologia, estudo inglês de forma autodidata (no momento intermediário) e gosto de entender sobre o mercado financeiro e curioso sobre astronomia, além de alguns hobbies como videogame, arte 2D e pixelart.
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>
+          <i class="fa-solid fa-code"></i>
+          Skills</h2>
+        <span>Tecnologias que tenho estudado:</span>
+        <ul>
+          <li>
+            <i class="fa-solid fa-caret-right"></i>
+            Javascript
+          </li>
+          <li>
+            <i class="fa-solid fa-caret-right"></i>
+            HTML
+          </li>
+          <li>
+            <i class="fa-solid fa-caret-right"></i>
+            CSS
+          </li>
+          <li>
+            <i class="fa-solid fa-caret-right"></i>
+            React.JS
+          </li>
+          <li>
+            <i class="fa-solid fa-caret-right"></i>
+            UI/UX Design
+          </li>
+        </ul>
+      </section>
+
+      <section class="projects-container" id="projects">
+        <h2>
+          <i class="fa-solid fa-code"></i>
+          Meus Projetos</h2>
+          <div class="projects">
+
+            <div class="project">
+              <div class="project-img">
+                <img src="/assets/live-secrets/home.png" alt="Live Secrets Q.">
+              </div>
+              <div class="project-description">
+                <h4>Live Secrets Q.</h4>
+                <p>Estilização de tela de login e tela de criação de senha de um forum de perguntas e respostas anônimas.</p>
+                <span class="project-tech">HTML e CSS</span>
+                  <a href="https://github.com/leonarclo/live-secrets_nlw-based-project-master" target="_blank">
+                  <button class="button-github">
+                    <span>Veja no github</span>
+                    <i class="fa-brands fa-github"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-img">
+                <img src="/assets/todo-list/todo-list.png" alt="Lista de Tarefas.">
+              </div>
+              <div class="project-description">
+                <h4>Lista de Tarefas</h4>
+                <p>Uma lista de Tarefas simples com funcionalidades Javascript.</p>
+                <span class="project-tech">Javascript, HTML e CSS</span>
+                <a href="https://github.com/leonarclo/todo-list" target="_blank">
+                  <button class="button-github">
+                    <span>Veja no github</span>
+                    <i class="fa-brands fa-github"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-img">
+                <img src="/assets/slide-cats/slide-cats.png" alt="Slideshow Cats">
+              </div>
+              <div class="project-description">
+                <h4>Slideshow Cats</h4>
+                <p>Slideshow com fotos de gatinhos utilizando majoritariamente CSS.</p>
+                <span class="project-tech">HTML, CSS e Javascript</span>
+                <a href="https://github.com/leonarclo/slideshow-cats" target="_blank">
+                  <button class="button-github">
+                    <span>Veja no github</span>
+                    <i class="fa-brands fa-github"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-img">
+                <img src="/assets/wildbeast-polar/wildbeast-polar-grid.png" alt="WildBeast Polar">
+              </div>
+              <div class="project-description">
+                <h4>WildBeast Polar</h4>
+                <p>Site baseado em um projeto da Origamid, com foco em CSS grid layout.</p>
+                <span class="project-tech">HTML e CSS</span>
+                <a href="https://github.com/leonarclo/WildBeast--site-with-grid-responsive-layout--origamid-adaptation" target="_blank">
+                  <button class="button-github" type="input">
+                    <span>Veja no github</span>
+                    <i class="fa-brands fa-github"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built and designed by Leonardo Lima.</p>
+    </footer>
+
+    <aside class="social-side">
+      <div>
+        <span>Contate-me:</span>
+        <a href="https://github.com/leonarclo" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/leonardo-lima-633067142/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:leonardostlima@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+    </aside>
+  </div>
+
+</body>
+</html>
