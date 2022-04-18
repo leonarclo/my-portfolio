@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,6 +38,11 @@ i {
 img {
   display: block;
   max-width: 100%;
+  border-radius: .5rem;
+}
+
+button {
+  border-radius: .5rem;
 }
 
 :root {
